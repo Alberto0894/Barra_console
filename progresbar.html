@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Barra de progreso</title>
+    <script type="text/javascript" src="JS/funciones.js"></script>
+    <link href="CSS/Styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h2 class="etq1">Barra de progreso "Simulador"</h2>
+        <div id="container">
+            <div id="container2">
+                <h4 class="etq2">Entregas a realizar</h4>
+                <h4 class="etq3">Entregas realizadas</h4>
+                <input type="text" id="number2"/>
+                <input type="text" id="number"/>
+                <progress id="progress" class="bar" value="0" max="100" ></progress>
+                <input type="button" id="load" value="Cargar" onclick='load2()'/>
+                <span class="etq4" id="etq1" value="">0</span>
+                <span class="etq5" id="etq2" value="">0</span>
+                <span id="ind">0-0</span>
+                <span id="ind_por">0%</span>
+            </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,163 @@
+
+/*=======Containers=======*/
+#container{
+    border-radius:15px;
+    position: relative;
+    text-align: center;
+    background:#85C440 ;
+    width: 800px;
+    height:300px;
+    align-content: center;
+    justify-content: center;
+    left: 260px;
+    top:40px;
+}
+
+#container2{
+
+    position: relative;
+    text-align: center;
+    width: 800px;
+    height:300px;
+    align-content: center;
+    justify-content: center;
+    left: 20px;
+    top:-25%;
+
+}
+/*=======Titles & Subtitles===========*/
+.etq1{
+    position: relative;
+    text-align: center;
+    top: 15px;
+    font-size: 30px;
+    font-family: Consolas;
+}
+
+.etq2{
+    position: relative;
+    right:275px;
+    font-size: 15px;
+    font-family: Consolas;
+    top:180px;
+}
+
+.etq3{
+    position: relative;
+    right:110px;
+    font-size: 15px;
+    font-family: Consolas;
+    top:141px;
+}
+
+.etq4{
+
+    position: relative;
+    font-size: 15px;
+    font-family: consolas;
+    top:142px;
+    right:87px;
+}
+
+.etq5{
+
+    position: relative;
+    font-size: 15px;
+    font-family: consolas;
+    top:142px;
+    right:320px;
+
+
+
+}
+
+#ind{
+
+    position: relative;
+    font-size: 15px;
+    font-family: consolas;
+    top:100px;
+    right:230px;
+}
+
+#ind_por{
+
+    position: relative;
+    top: 120px;
+    right:270px;
+}
+
+/*====Text box======*/
+#number{
+    border-radius: 10px;
+    position:relative;
+    height: 19px;
+    top: 120px;
+    text-align: center;
+    right:0px;
+}
+
+#number2{
+    border-radius: 10px;
+    position:relative;
+    height: 19px;
+    top: 120px;
+    text-align: center;
+    right:10px;
+}
+
+/*====Styles Bar======*/
+.bar {
+
+
+    /* Elimino la apariencia por defecto */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    /* Quito el borde que aparece en Firefox */
+    border: none;
+
+    /* Añado mis propios estilos */
+    width: 250px;
+    height: 25px;
+    overflow:hidden;
+
+    /*estilos de la barra*/
+    border-radius: 10px;
+    position: relative;
+    top: 125px;
+    left:10px;
+}
+
+
+/*====STYLES GOOGLE CHROME "BAR"============*/
+.bar[value]::-webkit-progress-bar {
+    background-color: #fbfcfc;
+
+}
+
+.bar[value]::-webkit-progress-value {
+    /*background-color:#48c9b0 ;*/
+    background:-webkit-linear-gradient(top,limegreen 25%, white 75%);
+    border-radius: 10px;
+}
+
+
+/*====STYLES FIRE FOX "BAR"==================*/
+.bar[value]::-moz-progress-bar {
+    background-color: #48c9b0;
+    border-radius: 10px;
+}
+
+/*====Button========*/
+#load{
+
+    position: relative;
+    top: 120px;
+    border-radius: 10px;
+    width: 70px;
+    height: 20px;
+    left:15px;
+}
+
