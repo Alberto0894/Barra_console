@@ -21,7 +21,7 @@ function load2 () {
        alert("No puedes realizar mas entregas, haz realizado tu Misión");
 
     }else if(num==0){
-        alert("No has realizado tus entregas");
+        alert("No has realizado las entregas");
 
     }
 
